@@ -8,7 +8,7 @@ let package = Package(
     products: [
         .library(
             name: "FindInPageIOSJSSupport",
-            targets: ["FindInPageIOSJSSupport_PrecompiledProduct"]
+            targets: ["FindInPageIOSJSSupport", "FindInPageIOSJSSupport_PrecompiledProduct"]
         )
     ],
     targets: [
@@ -19,8 +19,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "FindInPageIOSJSSupport",
-            url: "https://github.com/swift-precompiled/ios-js-support/releases/download/2.0.0/FindInPageIOSJSSupport-6ef2aaea2def50822e576dbc3b9a227feb5a7df236658651efaad8d72d823e83.xcframework.zip",
-            checksum: "6ef2aaea2def50822e576dbc3b9a227feb5a7df236658651efaad8d72d823e83"
+            url: "https://github.com/swift-precompiled/ios-js-support/releases/download/2.0.0/FindInPageIOSJSSupport-c407dca72c7574dad3f5f1a5a8979e0450c6b7c1956e7183a62c7b95d37104f6.xcframework.zip",
+            checksum: "c407dca72c7574dad3f5f1a5a8979e0450c6b7c1956e7183a62c7b95d37104f6"
         ),
         .target(
             name: "FindInPageIOSJSSupport_PrecompiledProduct",
